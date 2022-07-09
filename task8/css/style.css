@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@700&family=Open+Sans:wght@300&display=swap');
+.container{
+  width:80%;
+  height: 200px;
+  margin: auto;
+  margin-top: 250px;
+}
+
+.container .inner-container{
+  width:28%;
+  height: 100%;
+  float: left;
+  margin-left:30px;
+
+}
+
+.container .inner-container .image{
+ width:10%;
+ float:left;
+ text-align: center;
+ margin-right: 10px;
+ height: 40%;
+ margin-top: 25px;
+}
+
+i{
+  color:green;
+  font-size: 50px;
+  
+}
+
+.container .inner-container .text{
+  width:82%;
+  height:100%;
+  float:left;
+  padding-left:15px;
+ 
+ }
+ .container .inner-container .text h3{
+  font-family: 'Aref Ruqaa', serif;
+  
+ }
+ .container .inner-container .text p{
+  font-family: 'Aref Ruqaa', serif;
+  color:grey;
+  font-size: 15px;
+  font-weight: 900;
+ }

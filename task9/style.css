@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width:100%;
+  height: 750px;
+  background-image: url("medic-7.jpg");
+  text-align: center;
+}
+
+.container .color{
+  width:100%;
+  height: 750px;
+  background-color: rgba(5,9,250,0.5);
+}
+.container .header{
+  color:white;
+  font-size: 50px;
+  font-weight: 400;
+  padding-top: 300px;
+}
+.container .about{
+  color:white;
+  font-size: 30px;
+  font-weight: 400;
+  padding:30px 0;
+}
+
+.btn{
+  width:120px;
+  height:50px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-weight: bolder;
+  color: white;
+}
+.learn-more{
+  background-color:#469fe4;
+}
+.contact-us{
+ background-color: transparent;
+ border:1px solid white;
+}
+.learn-more:hover{
+  background-color:white;
+  color:black;
+}
+.contact-us:hover{
+  background-color:white;
+  color:black;
+ }
+
