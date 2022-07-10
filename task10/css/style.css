@@ -3,6 +3,26 @@
   margin: 0;
   padding: 0;
 }
+/** scroll **/
+::-webkit-scrollbar {
+  width: 25px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #eee;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+/***/
 .fixed-icons{
   background-color:white;
   width:50px;
@@ -438,11 +458,17 @@ font-family: 'Alegreya', serif;
   color: grey;
 }
 .second-footer .social-links{
-  width:10%;
-  height:40px;
+  width:50%;
+  height:80px;
   margin:auto;
+  text-align: center;
+
 }
 .second-footer .social-links i{
-  font-size: 45px ;
+  font-size: 35px ;
   color:grey;
+}
+.second-footer .social-links i:hover{
+  font-size: 40px ;
+  color:#eee;
 }
