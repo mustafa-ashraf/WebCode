@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@500&family=Aref+Ruqaa:wght@700&family=Open+Sans:wght@300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+.fixed-icons{
+  background-color:white;
+  width:50px;
+  height: 100px;
+  position: fixed;
+  right: 0;
+  top:50%;
+  text-align: center;
+  border-radius: 10px;
+  border:2px solid grey;
+}
+.fixed-icons i{
+  text-align: center;
+  color:grey;
+  font-size: 20px;;
+  padding-top:20px;
+}
+.fixed-icons i:hover{
+  color:rgb(94, 94, 211);
+  font-size:25px
+}
+/*start of section 1 nav bar */
+.nav-bar{
+  width: 100%;
+  height:70px;
+  position: fixed;
+}
+.nav-bar img{
+  width: 12%;
+  height:50px;
+  vertical-align: middle;
+  padding:20px 0 0 80px ;
+}
+.nav-bar a{
+  text-decoration: none;
+  color:white;
+  padding:30px 40px 0 0;
+  font-size: 17px;
+  float: right;
+  font-weight: 700;
+}
+
+
+.nav-bar a:hover{
+    color:#8e7754
+}
+/************end of section 1***********/
+/******************start of welcome section******section 2*******/
+.welcome-section{
+  width:100%;
+  height: 750px;
+  background-image: url("../img.jpg");
+  background-size: cover;
+  background-size: cover;
+  font-family: 'Alegreya', serif;
+}
+
+
+.content{
+  position: absolute;
+  left:30%;
+  top:30%;
+  text-align: center;
+}
+.welcome-section .content .header{
+  color:white;
+  font-size:70px;
+  font-weight: 400;
+  
+}
+.welcome{
+  padding-top: 300px;
+  font-family: sans-serif;
+}
+.welcome-section .content .about{
+  color:white;
+  font-size: 20px;
+  padding:30px 0;
+}
+
+.btn{
+  width:120px;
+  height:50px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-weight: bolder;
+  color: white;
+  margin:20px 0 0 10px;
+}
+.learn-more{
+ background-color: #8e7754;
+;
+}
+.contact-us{
+ background-color: transparent;
+ border:1px solid white;
+}
+.learn-more:hover{
+  background-color:white;
+  color:black;
+}
+.contact-us:hover{
+  background-color:white;
+  color:black;
+ }
+ /* end of section 2 */
+ /* star of section 3 who-section */
+ .who-section{
+  width:100%;
+  height: 750px;
+ }  
+ .who-img{
+  width:50%;
+  height: 100%;
+  float: left;
+  background-image: url("../alexandru-stavrica-170390-800x760.jpg");
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: 50%;
+ }
+.who-text{
+  width:50%;
+  height: 100%;
+  float: left;
+  
+  
+}
+.text{
+  width:100%;
+  height: 50%;
+  position: relative;
+  
+}
+.who-icons{
+  width:100%;
+  height: 50%;
+  
+
+}
+.who-section .who-text h1{
+    font-size: 30px;
+    font-weight:lighter;
+    font-family: 'Alegreya', serif;
+    position: absolute;
+    top:200px;
+    left:40px;
+  
+
+}
+.who-section .who-text .text p{
+  margin-top: 50px;
+  font-size: 16px;
+  font-weight: lighter;
+  font-family: 'Alegreya', serif;
+  color:#686868;
+  position: absolute;
+  top:200px;
+  left:40px;
+
+
+}
+.icon-line{
+  width:100%;
+  height: 20%;
+}
+.icon-line .icons{
+  width:15%;
+  height: 100%;
+  float: left;
+}
+.icon-line .line{
+  width:85%;
+  height: 100%;
+  float: left;
+  font-weight: 100;
+  font-family: 'Alegreya', serif;
+  color:grey;
+
+}
+.who-section i{
+  font-size: 20px;
+  padding-left:50px;
+  color:#8e7754;
+  border:1px solid #8e7754;
+  border-radius: 50%;
+  padding:10px;
+}
+
+/*end of section2 who section */
+/* start of section 3 */
+
+.our-location-section
+{
+  width:100%;
+  height:750px;
+  background-color: #eee;
+}
+
+.our-location-section .location_about{
+  width:50%;
+  height:100%;
+  float:left;
+  position: relative;
+
+}
+.our-location-section .location-image{
+  width:50%;
+  height:100%;
+  float:left;
+}
+
+.our-location-section .location_about h1{
+  position: absolute;
+  top:250px;
+  left:100px;
+  font-size: 50px;
+  font-weight: lighter;
+  font-family: 'Alegreya', serif;
+  opacity:0.7;
+
+
+}
+.our-location-section .location_about .first-p{
+  position: absolute;
+  top:400px;
+  left:100px;
+  color:grey;
+  font-size: 18px;
+
+}
+.our-location-section .location_about .second-p{
+  position: absolute;
+  top:500px;
+  left:100px;
+  color:grey;
+  font-size: 18px;
+
+}
+.our-location-section .location-image{
+  background-image: url("../full-2-800x640.jpg");
+  background-size: cover;
+  background-size: 75%;
+  background-repeat: no-repeat;
+  background-position: 75%;
+}
+/* end of location section section 3*/
+
+/* start of section4 section of our baking*/
+.our-baking{
+  width:100%;
+  height: 750px;
+}
+.our-baking .the-title{
+  width:100%;
+  height: 30%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.our-baking .food-container{
+  width:100%;
+  height: 70%;
+  text-align: center;
+  
+}
+.our-baking .the-title h1{
+  padding-top: 100px;
+  font-weight: lighter;
+  font-size: 35px;
+}
+.our-baking .the-title p{
+  padding-top: 15px;
+  font-weight: lighter;
+  color:grey;
+}
+.our-baking .food-container .food-box{
+  width:33.33%;
+  height: 100%;
+  float: left;
+}
+.our-baking .food-container .food-box .food-img{
+ width:100%;
+ height:60%;
+ background-image: url("../clem-onojeghuo-206832-600x500.jpg");
+ background-size: 70%;
+ background-repeat: no-repeat;
+ background-position:50%;
+ 
+}
+.our-baking .food-container .food-box .food-about{
+  width:100%;
+  height:40%;
+}
+.our-baking .food-container .food-box .food-about h1{
+  font-weight: lighter;
+  padding:30px 0;
+  font-family: 'Alegreya', serif;
+
+}
+.our-baking .food-container .food-box .food-about p{
+    color:grey;
+}
+
+/*end of section our baking section4 */
+/*start of section5 section map */
+.map{
+  width: 100%;
+  height: 750px;
+  overflow: hidden;
+  background-color: #eee;
+}
+.map .info{
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+.map .google-map{
+  width: 50%;
+  height: 100%;
+  float: left; 
+}
+.map .google-map iframe{
+ padding:100px 0 0 120px
+}
+.map .info .info-summary{
+  width:70%;
+  height:40%;
+  margin: auto;
+}
+.map .info .info-icons{
+  width:70%;
+  height:60%;
+  margin: auto;
+}
+.map .info .info-summary h1{
+  font-weight: lighter;
+  padding-top: 120px;
+  font-size: 40px;
+  font-family: 'Alegreya', serif;
+
+}
+.map .info .info-summary p{
+color:grey;
+padding-top: 40px;
+font-family: 'Alegreya', serif;
+
+}
+
+.map .info .info-icons .icon-line{
+  width:100%;
+  height: 20%;
+}
+.map .info .info-icons .icon-line .icons{
+  width:15%;
+  height: 100%;
+  float: left;
+  text-align: center;
+
+}
+.map .info .info-icons .icon-line .line{
+  width:85%;
+  height: 100%;
+  float: left;
+  font-weight: 100;
+  font-family: 'Alegreya', serif;
+  color:grey;
+}
+.map .info .info-icons .icon-line .line p{
+    padding:10px 0 0 0;
+}
+.map .info .info-icons .icon-line .icons i{
+  font-size: 20px;
+  padding-left:50px;
+  color:#8e7754;
+  border:1px solid #8e7754;
+  border-radius: 50%;
+  padding:10px;
+}
+/*** end of section 5 section map google */
+
+/* start of first footer section section6*/
+
+.whole-footer{
+  width: 100%;
+  height:750px;
+  }
+.first-footer{
+  width: 100%;
+  height: 60%;
+  background-color:  #403d38;
+}
+.whole-footer .first-footer .footer-info{
+  width:25%;
+  height: 80%;
+  background-color: #403d38;
+  float: left;
+}
+.whole-footer .first-footer .footer-info h1{
+      color:white;
+      padding-left: 70px;
+      padding-top: 50px;
+      font-weight: lighter;
+      font-size: 20px;
+}
+.whole-footer .first-footer .footer-info p{
+   color:grey;
+   padding:25px 70px 0 70px;
+   
+}
+.whole-footer .first-footer .footer-info .before::before{
+  content: "> ";
+}
+.whole-footer .first-footer .footer-info i{
+  padding-right:12px;
+}
+.second-footer {
+  width: 100%;
+  height: 40%;
+  background-color: #353330;
+}
+.second-footer .logo-img{
+  width:25%;
+  height:100px;
+  margin:auto;
+  background-image: url("../bakery-light-1.png");
+  background-repeat: no-repeat;
+}
+.second-footer .copyrights{
+  width:16%;
+  height:50px;
+  margin: auto;
+  padding:20px 0;
+  color: grey;
+}
+.second-footer .social-links{
+  width:10%;
+  height:40px;
+  margin:auto;
+}
+.second-footer .social-links i{
+  font-size: 45px ;
+  color:grey;
+}
